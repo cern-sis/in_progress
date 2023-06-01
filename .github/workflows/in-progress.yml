@@ -13,4 +13,4 @@ jobs:
         with:
           project: CAP Board
           column: Review
-          repo-token:
+          github-token: ${{ secrets.CERN_SIS_BOT_PAT }}
